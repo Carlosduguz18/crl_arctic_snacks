@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700;800&family=Smooch+Sans:wght@400;500;600;700;800&display=swap');
+/* font-family: 'Fira Sans', sans-serif; */
+/* font-family: 'Smooch Sans', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Smooch Sans', sans-serif;
+    /* background-color: #ccc; */
+}
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000000;
+    border-bottom: 4px solid #f09433;
+}
+    .logo-container {
+        /* background-color: aqua; */
+        width: 25%;
+        text-align: end;
+        padding: 10px;
+    }
+    .navbar-container {
+        /* background-color: red; */
+        width: 60%;
+        text-align: center;
+        text-decoration: none;
+    }
+        .navbar-container a {
+            text-decoration: none;
+            margin: 0 30px;
+            font-weight: 700;
+            font-size: 25px;
+            color: #ccc;
+        }
+    .social-container {
+        /* background-color: greenyellow; */
+        width: 20%;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        text-align: start;
+    }
+        .social-container a {
+            margin: 0 15px;
+        }
+            .iconWhatsapp {
+                font-size: 30px;
+                color: green;
+            }
+            .iconTiktok {
+                font-size: 23px;
+                background-color: #000000;
+                color: #ffff;
+            }
+            .iconInstagram {
+                font-size: 23px;
+                background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+            }
+
+.main-container {
+    /* background-color: #dc2743; */
+    width: 90%;
+    height: 200vh;
+    text-align: center;
+    margin: auto;
+}
+
+    .section-banner-container {
+        height: auto;
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+        box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+    }
+
+        .phrase-container{
+            margin: 20px auto;
+        }
+
+            .phrase-container h2 {
+                font-size: 45px;
+                color: #FFA500;
+            }
+
+            .phrase-container span {
+                font-size: 25px;
+                font-weight: 500;
+                color: #000000;
+            }
+
+        .image-container{
+            text-align: center;
+        }
+
+            .image-container img {
+
+            }
