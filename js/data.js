@@ -1,0 +1,88 @@
+const menu = [
+    {
+        id: 1,
+        title: 'Marciano Maracuyá',
+        category: 'martians',
+        price: 'S/ 1.00',
+        img: 'img/ImageDefault.png',
+    },
+    {
+        id: 2,
+        title: 'Marciano Chicha',
+        category: 'martians',
+        price: 'S/ 1.00',
+        img: 'img/ImageDefault.png',
+    },
+    {
+        id: 3,
+        title: 'Marciano Fresa/Leche',
+        category: 'martians',
+        price: 'S/ 1.50',
+        img: 'img/ImageDefault.png',
+    },
+    {
+        id: 4,
+        title: 'Marciano Oreo/Leche',
+        category: 'martians',
+        price: 'S/ 1.50',
+        img: 'img/ImageDefault.png',
+    },
+    {
+        id: 5,
+        title: 'Marciano Lucúma/Leche',
+        category: 'martians',
+        price: 'S/ 1.50',
+        img: 'img/ImageDefault.png',
+    },
+    {
+        id: 6,
+        title: 'Marciano Chocolate/Leche',
+        category: 'martians',
+        price: 'S/ 1.50',
+        img: 'img/ImageDefault.png',
+    },
+    {
+        id: 7,
+        title: 'Gelatina Fresa',
+        category: 'gelatins',
+        price: 'S/ 1.50',
+        img: 'img/ImageDefault.png',
+    },
+    {
+        id: 8,
+        title: 'Gelatina Piña',
+        category: 'gelatins',
+        price: 'S/ 1.50',
+        img: 'img/ImageDefault.png',
+    },
+    {
+        id: 9,
+        title: 'Gelatina Naranja',
+        category: 'gelatins',
+        price: 'S/ 1.50',
+        img: 'img/ImageDefault.png',
+    },
+    {
+        id: 10,
+        title: 'Bebida Maracuyá',
+        category: 'drinks',
+        price: 'S/ 1.50',
+        img: 'img/ImageDefault.png',
+    },
+    {
+        id: 11,
+        title: 'Bebida Chicha Morada',
+        category: 'drinks',
+        price: 'S/ 1.50',
+        img: 'img/ImageDefault.png',
+    },
+    {
+        id: 12,
+        title: 'Bebida Limonada',
+        category: 'drinks',
+        price: 'S/ 1.50',
+        img: 'img/ImageDefault.png',
+    },
+]
+
+export default menu
